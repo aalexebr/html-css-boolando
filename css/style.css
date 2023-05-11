@@ -119,10 +119,18 @@ img{
     background-color: green;
     
 }
+.heart{
+    padding: 4px;
+    top: 5px;
+    right: 0;
+    background-color: white;
+
+}
 
 .item-hover{
     display: none;
 }
+
 .item:hover .product-image{
     display: none;
 }
