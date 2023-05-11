@@ -5,11 +5,18 @@
 }
 /* DEBUG */
 
-.debug .header-row{
+.debug .header-row,
+.debug .card-row{
     border: 2px dotted lightcoral;
 }
-.debug .nav{
+.debug .nav,
+.debug .card{
     border: 2px dotted lightgreen;
+}
+
+.debug .card{
+    height: 50px;
+    width: calc(100% / 3);
 }
 /* GENERAL */
 
@@ -27,9 +34,28 @@ li{
 }
 a{
     text-decoration: none;
+    color: inherit;
 }
 /* HEADER */
-
+header{
+    background-color: #FF6900;
+    color: white;
+}
 header .nav .logo {
-    height: 40px;
+    height: 25px;
+}
+
+.header-row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* MAIN */
+
+main section{
+    margin-top: 60px;
+}
+
+.card-row .flex{
+    flex-wrap: wrap;
 }
