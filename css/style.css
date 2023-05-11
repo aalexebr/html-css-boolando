@@ -37,6 +37,13 @@ a{
     text-decoration: none;
     color: inherit;
 }
+.pos-relative{
+    position: relative;
+}
+.pos-absolute{
+    position: absolute;
+}
+
 /* HEADER */
 header{
     background-color: #FF6900;
@@ -60,6 +67,7 @@ img{
     width: 100%;
     
 }
+/* card spacing */
 .card-row{
     margin: -10px;
 }
@@ -67,11 +75,29 @@ img{
     width: calc((100% / 3) - 20px);
     margin: 10px 10px;
 }
-
+/* card end */
 
 .item-description ul li{
     display: block;
 }
+.tags{
+    bottom: 30px;
+}
+ .tags li{
+    color: white;
+    font-weight: bold;
+    padding: 5px 8px;
+    font-size: 0.5em;
+} 
+
+.tags .discount{
+    background-color: red;
+    
+}
+.tags .green{
+    background-color: green;
+}
+
 
 /*  FOOTER */
 
