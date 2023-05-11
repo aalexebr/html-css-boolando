@@ -27,6 +27,7 @@
 }
 .flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
 li{
@@ -56,6 +57,17 @@ main section{
     margin-top: 60px;
 }
 
-.card-row .flex{
-    flex-wrap: wrap;
+/*  FOOTER */
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-column li{
+    font-size: 0.6em;
+}
+.footer-row{
+    justify-content: space-between;
 }
