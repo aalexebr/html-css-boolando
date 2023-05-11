@@ -3,6 +3,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* DEBUG */
 
-
+.debug .header-row{
+    border: 2px dotted lightcoral;
+}
+.debug .nav{
+    border: 2px dotted lightgreen;
+}
 /* GENERAL */
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    width: 80%;
+}
+.flex{
+    display: flex;
+}
+
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+/* HEADER */
+
+header .nav .logo {
+    height: 40px;
+}
